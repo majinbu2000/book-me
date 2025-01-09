@@ -8,125 +8,129 @@
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212;  /* Dark background */
-    color: #f4f4f9;  /* Light text */
+    background-color: #1a1a1a;  /* Dark background */
+    color: #eaeaea;  /* Light text */
     margin: 0;
     padding: 0;
-    overflow-x: hidden;  /* Prevent horizontal scroll */
-    scroll-behavior: smooth;  /* Smooth scrolling */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* Header Styling */
 header {
-    background-color: #1f1f1f; /* Dark header */
-    color: #d0a9f5;  /* Lavender text */
+    background-color: #333; /* Dark background */
+    color: #f4a261; /* Soft orange for contrast */
     text-align: center;
-    padding: 30px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 header p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px 0;
 }
 
-/* DJ Intro Section */
+/* DJ Introduction */
 .dj-intro {
-    max-width: 600px;
+    max-width: 700px;
     margin: 40px auto;
-    padding: 30px;
-    background-color: #1f1f1f;  /* Dark background for intro */
+    padding: 40px;
+    background-color: #444; /* Darker intro background */
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     text-align: center;
-    border: 1px solid #4e4e4e;  /* Border with subtle contrast */
 }
 
 .dj-intro h2 {
     margin-top: 0;
-    font-size: 28px;
-    color: #d0a9f5; /* Lavender color */
+    font-size: 32px;
+    color: #f4a261; /* Soft orange */
 }
 
 .dj-intro p {
     font-size: 18px;
-    color: #b0b0b0; /* Lighter gray for text */
+    color: #ddd;
 }
 
-/* Booking Form Styling */
+/* Booking Form */
 .booking-form {
-    max-width: 600px;
+    max-width: 700px;
     margin: 40px auto;
-    padding: 30px;
-    background-color: #1f1f1f;
+    padding: 40px;
+    background-color: #444;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .booking-form h2 {
     margin-top: 0;
-    color: #d0a9f5;
-    font-size: 28px;
+    font-size: 32px;
+    color: #f4a261;
 }
 
 .booking-form label {
     display: block;
     margin-bottom: 12px;
     font-weight: bold;
-    font-size: 16px;
-    color: #f4f4f9;
+    font-size: 18px;
+    color: #ddd;
 }
 
 .booking-form input {
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
-    background-color: #333;  /* Dark input fields */
-    border: 1px solid #444;
-    border-radius: 6px;
-    color: #f4f4f9; /* Light text in input */
+    background-color: #555;  /* Slightly lighter dark background */
+    border: 1px solid #666;
+    border-radius: 8px;
+    color: #fff;
     font-size: 16px;
 }
 
 .booking-form input:focus {
-    border-color: #d0a9f5;  /* Focus color */
+    border-color: #f4a261;
     outline: none;
 }
 
 .booking-form button {
-    background-color: #d0a9f5;
-    color: #121212;
+    background-color: #f4a261;
+    color: #1a1a1a;
     padding: 15px 25px;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     transition: background-color 0.3s ease;
 }
 
 .booking-form button:hover {
-    background-color: #a28df5; /* Lighter lavender when hovered */
+    background-color: #e76f51;
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
-    padding: 15px;
-    background-color: #1f1f1f;
-    color: #f4f4f9;
+    padding: 20px;
+    background-color: #333;
+    color: #f4a261;
 }
 
 footer a {
-    color: #d0a9f5;
+    color: #f4a261;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Add some padding at the bottom of the page */
+footer p {
+    margin-bottom: 10px;
 }
