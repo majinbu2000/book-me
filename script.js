@@ -6,6 +6,12 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
     const eventType = document.getElementById("event").value;
     const date = document.getElementById("date").value;
 
+    // Basic form validation
+    if (!name || !email || !eventType || !date) {
+        alert('Please fill out all the fields!');
+        return;  // Prevent form submission
+    }
+
     const responseMessage = `
         <p>Thank you for booking with me!</p>
         <p>Name: ${name}</p>
@@ -16,7 +22,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
     `;
     document.getElementById("response").innerHTML = responseMessage;
 
-    // Send an email (you will need a backend service like Formspree or a server-side solution)
+    // Send an email (using Formspree or a backend service)
     const formData = new FormData();
     formData.append('name', name);
     formData.append('email', email);
