@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Booking Page</h1>
+        <p>Book me for your event by filling out the form below!</p>
+    </header>
+
+    <section class="dj-intro">
+        <h2>About Me</h2>
+        <p>Hi, I'm <strong>Moub</strong>, a professional DJ with a passion for creating unforgettable music experiences. Whether it's a rave, party, or special event, I bring energy and rhythm to the crowd. Let's make your event one to remember!</p>
+    </section>
+
+    <section class="booking-form">
+        <h2>Booking Form</h2>
+        <form id="bookingForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="event">Event Type</label>
+            <input type="text" id="event" name="event" required>
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="response"></div>
+    </section>
+
+    <footer>
+        <p>For any urgent queries, contact me directly via email: <a href="mailto:Halima.booking@gmail.com">Halima.booking@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
